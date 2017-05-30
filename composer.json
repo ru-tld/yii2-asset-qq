@@ -1,0 +1,51 @@
+{
+    "name": "ru-tld/yii2-asset-qq",
+    "type": "yii2-extension",
+    "description": "QQ.domains asset files: images, configs and more",
+    "keywords": [
+        "qq",
+        "asset",
+        "extension",
+        "yii2"
+    ],
+    "homepage": "https://github.com/ru-tld/yii2-asset-qq",
+    "license": "proprietary",
+    "support": {
+        "email": "support@ru-tld.ru",
+        "source": "https://github.com/ru-tld/yii2-asset-qq",
+        "issues": "https://github.com/ru-tld/yii2-asset-qq/issues",
+        "wiki": "https://github.com/ru-tld/yii2-asset-qq/wiki",
+        "forum": "https://ru-tld.ru/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hipanel.com/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "require-dev": {
+        "hiqdev/hidev-php": "<2.0 || dev-master",
+        "ru-tld/hidev-ru-tld": "<2.0 || dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "qq\\assets\\qq\\": "src"
+        }
+    },
+    "extra": {
+        "config-plugin": {
+            "params": "src/config/params.php"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

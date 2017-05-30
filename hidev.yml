@@ -1,0 +1,14 @@
+package:
+    type:           yii2-extension
+    name:           yii2-asset-qq
+    title:          'QQ.domains asset files: images, configs and more'
+    headline:       QQ.domains assets
+    keywords:       qq, asset, extension, yii2
+    description:    |
+        [QQ.domains](https://qq.domains/) is a domain registrator.
+
+        This package provides assets shareable between different QQ.domains projects:
+
+        - config settings
+        - logos and css
+        - yii2 asset bundle
