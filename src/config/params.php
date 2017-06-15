@@ -29,5 +29,7 @@ return [
 
     'socialLinks.links'  => [
         'email'     => 'mailto:' . $supportEmail,
+        'twitter'   => 'https://twitter.com/rutld',
+        'facebook'  => 'https://www.facebook.com/groups/230254030432488/',
     ],
 ];
