@@ -21,6 +21,7 @@ return [
     'adminEmail'        => $supportEmail,
     'abuseEmail'        => 'abuse@qq.domains',
     'salesEmail'        => 'sale@qq.domains',
+    'gdprEmail'         => 'dpo@danesconames.com',
 
     'logo.image'                => '@qq/assets/qq/assets/img/alt-logo.png',
     'logo.imageOptions'         => ['style' => 'width: 100px;'],
