@@ -16,6 +16,10 @@ return [
 
     'organization.name' => 'QQ.domains',
     'organization.url'  => 'https://qq.domains/',
+    'organization.contact' => [
+        'name'                  => 'WAVE BUSINESS DECISIONS LTD.',
+        'phone'                 => 'Tel.: +972772238823',
+    ],
 
     'supportEmail'      => $supportEmail,
     'adminEmail'        => $supportEmail,
