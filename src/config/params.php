@@ -37,4 +37,6 @@ return [
         'twitter'   => 'https://twitter.com/rutld',
         'facebook'  => 'https://www.facebook.com/groups/230254030432488/',
     ],
+
+    'module.server.order.redirect.url' => "https://ru-tld.ru/{language}/virtual-servers/",
 ];
