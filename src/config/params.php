@@ -8,6 +8,8 @@
  * @copyright Copyright (c) 2017, RU-TLD (https://ru-tld.ru/)
  */
 
+use vintage\recaptcha\helpers\RecaptchaConfig;
+
 
 $supportEmail = 'support@qq.domains';
 
@@ -39,4 +41,7 @@ return [
     ],
 
     'module.server.order.redirect.url' => "https://ru-tld.ru/{language}/virtual-servers/",
+
+    RecaptchaConfig::SITE_KEY     => '6LdWb_AaAAAAAIXomeeC5VYgVBfJEaMjrT2v3Y8-',
+    RecaptchaConfig::PRIVATE_KEY  => '6LdWb_AaAAAAAD87bBKXv8yxofVxxdDUOGsGIIjm',
 ];
